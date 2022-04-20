@@ -1,3 +1,9 @@
+body {
+    font-family: Roboto,
+    Arial,
+    sans-serif;
+}
+
 .main-container {
     display: flex;
     margin: 20px auto;
@@ -42,12 +48,27 @@
     text-align: center;
 }
 
+.education-middle-style {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.education-spec-style {
+    font-size: 14px;
+}
+
+.education-data-style {
+    font-size: 10px;
+    color: #ccc;
+}
+
 @media screen and (max-width: 600px) {
-    .main-container {
+   .main-container {
         display: flex;
         flex-wrap: wrap;
         width: 300px;
     }
+
     .skills-content {
         width: 300px;
     }

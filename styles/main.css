@@ -2,64 +2,70 @@ body {
     font-family: Roboto,
     Arial,
     sans-serif;
+    font-size: 20px;
 }
 
 .main-container {
     display: flex;
     margin: 20px auto;
-    width: 900px;
+    width: 1200px;
 }
 
-/*.header {
-    border: 1px double #000;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    background-color: #ffe8cc;
-    text-align: center;
-    padding: 10px;
-}*/
-
 .skills-content {
-    width: 300px;
+    width: 400px;
     box-sizing: border-box;
-    background-color: #fef6ec;
+    background-color: #ffe6cc;
     border: 1px double #000;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 5px;
-    padding: 10px;
+    padding: 20px;
+   
 }
 
 .skills-content img {
     display: block;
     margin: 0 auto;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.skills-networks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skills-content a {
+    text-decoration: none;
 }
 
 .about-content {
-    width: 600px;
+    width: 800px;
     box-sizing: border-box;
     background-color: #fef6ec;
     border: 1px double #000;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 25px;
     margin: 5px;
 }
 
 .about-content h1 {
     text-align: center;
+    text-shadow: #c0c0d8 3px -3px;
 }
 
 .education-middle-style {
-    font-size: 16px;
-    color: #ccc;
+    font-size: 18px;
+    color: #c0c0d8;
 }
 
 .education-spec-style {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .education-data-style {
-    font-size: 10px;
-    color: #ccc;
+    font-size: 14px;
+    color: #c0c0d8;
 }
 
 @media screen and (max-width: 600px) {
@@ -77,3 +83,4 @@ body {
         width: 300px;
     }
 }
+
